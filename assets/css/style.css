@@ -1,7 +1,7 @@
 body{
-    overflow-x: hidden;
     font-family:'Open Sans', sans-serif;
     color: #ffffff;
+    background-color: rgb(53, 58, 63);
 }
 
 /*--- Navbar ---*/
@@ -9,7 +9,7 @@ body{
     font-weight: 600;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background-color: rgba(80, 160, 170, .4)!important;
+    background-color: rgba(110, 117, 124, .4)!important;
 }
 .navbar-brand img {
     height: 2rem;
@@ -33,5 +33,11 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center top;
+}
+
+/*---Lines Decoration---*/
+.borderbottom {
+    border-style: none none solid none;
+    border-color: rgb(74, 160, 181);
 }
 
