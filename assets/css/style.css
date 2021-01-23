@@ -24,7 +24,8 @@ body{
     padding-top: .8rem;
 }
 
-.navbar-dark .navbar-nav .navbar-link.active, .navbar-dark .navbar-nav .navbar-link:hover {
+.navbar-dark .navbar-nav .navbar-link.active, 
+.navbar-dark .navbar-nav .navbar-link:hover {
     color: #0066cc;
 }
 
@@ -39,5 +40,19 @@ body{
 .borderbottom {
     border-style: none none solid none;
     border-color: rgb(74, 160, 181);
+}
+
+/*---Footer---*/
+a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+footer a:hover {
+    color: #0066cc;
 }
 
